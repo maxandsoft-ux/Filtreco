@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filtreco.RU — Монтаж и продажа систем водоподготовки</title>
+  <meta name="description" content="Filtreco.RU — проектирование, продажа и монтаж систем водоподготовки для квартир, домов и предприятий. Анализ воды, гарантия, сервис.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="top">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <svg class="logo__icon" viewBox="0 0 32 32" width="34" height="34" aria-hidden="true">
+          <path d="M16 2C16 2 6 13.5 6 20a10 10 0 0 0 20 0C26 13.5 16 2 16 2z" fill="currentColor"/>
+          <path d="M12 20c0 2.2 1.8 4 4 4" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+        </svg>
+        <span class="logo__text">Filtreco<span class="logo__zone">.RU</span></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#services" class="nav__link">Услуги</a>
+        <a href="#catalog" class="nav__link">Каталог</a>
+        <a href="#steps" class="nav__link">Как мы работаем</a>
+        <a href="#advantages" class="nav__link">Преимущества</a>
+        <a href="#faq" class="nav__link">Вопросы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <div class="header__actions">
+        <a href="tel:+78001234567" class="phone">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.6 15.6 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.4c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.2 2.2z"/></svg>
+          <span>8 800 123-45-67</span>
+        </a>
+        <a href="#lead" class="btn btn--primary btn--sm">Заказать звонок</a>
+        <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="badge">Под ключ · с 2012 года · более 3 500 объектов</span>
+          <h1 class="hero__title">Монтаж и продажа систем <span class="accent">водоподготовки</span></h1>
+          <p class="hero__subtitle">Проектируем, поставляем и устанавливаем фильтрационное оборудование для квартир, частных домов, коттеджных посёлков и предприятий. Чистая вода по нормам СанПиН — с гарантией на оборудование и монтаж.</p>
+          <ul class="hero__points">
+            <li>Бесплатный анализ воды и подбор оборудования</li>
+            <li>Собственное производство и склад в России</li>
+            <li>Сервис и гарантийное обслуживание до 5 лет</li>
+          </ul>
+          <div class="hero__cta">
+            <a href="#lead" class="btn btn--primary btn--lg">Получить бесплатный расчёт</a>
+            <a href="#catalog" class="btn btn--ghost btn--lg">Смотреть каталог</a>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__visual" role="img" aria-label="Иллюстрация системы водоподготовки">
+            <svg viewBox="0 0 420 360" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="tankGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#3aa9e3"/>
+                  <stop offset="1" stop-color="#0f5f8f"/>
+                </linearGradient>
+                <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0" stop-color="#7fd0ff"/>
+                  <stop offset="1" stop-color="#2b8fc9"/>
+                </linearGradient>
+              </defs>
+              <!-- pipes -->
+              <rect x="40" y="290" width="340" height="14" rx="7" fill="#c9d7e2"/>
+              <rect x="70" y="120" width="14" height="180" rx="7" fill="#c9d7e2"/>
+              <rect x="330" y="150" width="14" height="150" rx="7" fill="#c9d7e2"/>
+              <rect x="84" y="110" width="250" height="14" rx="7" fill="#b7c8d6"/>
+              <!-- tanks -->
+              <g>
+                <rect x="100" y="130" width="80" height="150" rx="18" fill="url(#tankGrad)"/>
+                <rect x="100" y="200" width="80" height="80" rx="18" fill="url(#waterGrad)" opacity=".85"/>
+                <rect x="118" y="112" width="44" height="22" rx="8" fill="#0d4a70"/>
+              </g>
+              <g>
+                <rect x="200" y="150" width="70" height="130" rx="16" fill="url(#tankGrad)"/>
+                <rect x="200" y="210" width="70" height="70" rx="16" fill="url(#waterGrad)" opacity=".85"/>
+                <rect x="215" y="134" width="40" height="20" rx="8" fill="#0d4a70"/>
+              </g>
+              <g>
+                <rect x="285" y="170" width="55" height="110" rx="14" fill="url(#tankGrad)"/>
+                <rect x="285" y="225" width="55" height="55" rx="14" fill="url(#waterGrad)" opacity=".85"/>
+                <rect x="297" y="156" width="31" height="18" rx="7" fill="#0d4a70"/>
+              </g>
+              <!-- drop -->
+              <path d="M210 40c0 0-26 30-26 44a26 26 0 0 0 52 0c0-14-26-44-26-44z" fill="#22b8e0"/>
+              <path d="M198 84a12 12 0 0 0 12 12" stroke="#eafaff" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <!-- bubbles -->
+              <circle cx="140" cy="245" r="6" fill="#eafaff" opacity=".7"/>
+              <circle cx="230" cy="255" r="5" fill="#eafaff" opacity=".7"/>
+              <circle cx="310" cy="250" r="4" fill="#eafaff" opacity=".7"/>
+            </svg>
+          </div>
+          <div class="hero__stats">
+            <div class="stat"><span class="stat__num">3 500+</span><span class="stat__label">реализованных проектов</span></div>
+            <div class="stat"><span class="stat__num">14</span><span class="stat__label">лет на рынке</span></div>
+            <div class="stat"><span class="stat__num">24 мес.</span><span class="stat__label">гарантия на монтаж</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="section" id="services">
+      <div class="container">
+        <h2 class="section__title">Услуги водоподготовки под ключ</h2>
+        <p class="section__subtitle">От лабораторного анализа воды до пусконаладки и сервисного обслуживания</p>
+
+        <div class="grid grid--4">
+          <article class="card service-card">
+            <div class="service-card__icon">🧪</div>
+            <h3>Анализ воды</h3>
+            <p>Выезд инженера, отбор проб, лабораторная проверка по 25+ показателям. Заключение с рекомендациями — бесплатно при заказе.</p>
+          </article>
+          <article class="card service-card">
+            <div class="service-card__icon">📐</div>
+            <h3>Проектирование</h3>
+            <p>Разработка схемы водоподготовки, подбор производительности и компоновки оборудования под объект и бюджет.</p>
+          </article>
+          <article class="card service-card">
+            <div class="service-card__icon">🔧</div>
+            <h3>Монтаж и пусконаладка</h3>
+            <p>Установка колонн, фильтров, систем обратного осмоса и УФ. Пусконаладка, обучение персонала, сдача объекта.</p>
+          </article>
+          <article class="card service-card">
+            <div class="service-card__icon">🛠️</div>
+            <h3>Сервис и ремонт</h3>
+            <p>Регламентное обслуживание, замена засыпок и картриджей, модернизация существующих систем, аварийный выезд.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Catalog ===== -->
+    <section class="section section--alt" id="catalog">
+      <div class="container">
+        <h2 class="section__title">Каталог оборудования</h2>
+        <p class="section__subtitle">Продаём собственные комплектные установки и оборудование ведущих производителей</p>
+
+        <div class="grid grid--3">
+          <article class="card product-card">
+            <div class="product-card__img" aria-hidden="true">💧</div>
+            <div class="product-card__body">
+              <span class="tag">Для дома</span>
+              <h3>Механические и сетчатые фильтры</h3>
+              <p class="product-card__desc">Предварительная очистка от песка, ржавчины и взвесей. Производительность 1–50 м³/ч.</p>
+              <div class="product-card__footer">
+                <span class="price">от 4 500 ₽</span>
+                <a href="#lead" class="btn btn--outline btn--sm">Запросить цену</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <div class="product-card__img" aria-hidden="true">🏝️</div>
+            <div class="product-card__body">
+              <span class="tag">Хит</span>
+              <h3>Колонны умягчения воды</h3>
+              <p class="product-card__desc">Ионообменные фильтры для жёсткой воды из скважин. Автоматическая регенерация.</p>
+              <div class="product-card__footer">
+                <span class="price">от 38 900 ₽</span>
+                <a href="#lead" class="btn btn--outline btn--sm">Запросить цену</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <div class="product-card__img" aria-hidden="true">⚗️</div>
+            <div class="product-card__body">
+              <span class="tag">Для дачи</span>
+              <h3>Обезжелезиватели</h3>
+              <p class="product-card__desc">Фильтры-колонны с Birm,greensand и каталитическими засыпками. Железо до 15 мг/л.</p>
+              <div class="product-card__footer">
+                <span class="price">от 32 400 ₽</span>
+                <a href="#lead" class="btn btn--outline btn--sm">Запросить цену</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <div class="product-card__img" aria-hidden="true">🔄</div>
+            <div class="product-card__body">
+              <span class="tag">Промышленные</span>
+              <h3>Системы обратного осмоса</h3>
+              <p class="product-card__desc">Комплектные установки 0,5–20 м³/ч для производства, медицины и питания.</p>
+              <div class="product-card__footer">
+                <span class="price">от 145 000 ₽</span>
+                <a href="#lead" class="btn btn--outline btn--sm">Запросить цену</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <div class="product-card__img" aria-hidden="true">☀️</div>
+            <div class="product-card__body">
+              <span class="tag">Дезинфекция</span>
+              <h3>УФ-обеззараживание</h3>
+              <p class="product-card__desc">Уничтожение бактерий и вирусов без химии. Совместимо с любыми системами водоподготовки.</p>
+              <div class="product-card__footer">
+                <span class="price">от 21 700 ₽</span>
+                <a href="#lead" class="btn btn--outline btn--sm">Запросить цену</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card">
+            <div class="product-card__img" aria-hidden="true">🏭</div>
+            <div class="product-card__body">
+              <span class="tag">Под ключ</span>
+              <h3>Модульные котельные и ПВП</h3>
+              <p class="product-card__desc">Пункты водоподготовки в контейнерном исполнении для посёлков и предприятий.</p>
+              <div class="product-card__footer">
+                <span class="price">по запросу</span>
+                <a href="#lead" class="btn btn--outline btn--sm">Запросить расчёт</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="catalog__more">
+          <a href="#lead" class="btn btn--primary">Не нашли нужное оборудование? Запросите подбор</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Steps ===== -->
+    <section class="section" id="steps">
+      <div class="container">
+        <h2 class="section__title">Как мы работаем</h2>
+        <p class="section__subtitle">Прозрачный процесс — от заявки до чистой воды</p>
+
+        <ol class="steps">
+          <li class="step card">
+            <span class="step__num">01</span>
+            <h3>Заявка и консультация</h3>
+            <p>Обсуждаем задачу, объект и требования к качеству воды.</p>
+          </li>
+          <li class="step card">
+            <span class="step__num">02</span>
+            <h3>Анализ воды</h3>
+            <p>Отбор проб и лабораторные исследования показателей.</p>
+          </li>
+          <li class="step card">
+            <span class="step__num">03</span>
+            <h3>Проект и смета</h3>
+            <p>Подбор схемы водоподготовки, сроков и стоимости.</p>
+          </li>
+          <li class="step card">
+            <span class="step__num">04</span>
+            <h3>Поставка и монтаж</h3>
+            <p>Доставка, установка и подключение оборудования.</p>
+          </li>
+          <li class="step card">
+            <span class="step__num">05</span>
+            <h3>Пусконаладка</h3>
+            <p>Настройка режимов, контроль качества воды, обучение.</p>
+          </li>
+          <li class="step card">
+            <span class="step__num">06</span>
+            <h3>Сервис</h3>
+            <p>Гарантийное и постгарантийное обслуживание.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== Advantages ===== -->
+    <section class="section section--alt" id="advantages">
+      <div class="container">
+        <h2 class="section__title">Почему выбирают Filtreco</h2>
+        <div class="grid grid--3">
+          <div class="card feature">
+            <div class="feature__icon">✅</div>
+            <h3>Гарантия результата</h3>
+            <p>Если после монтажа вода не соответствует согласованным показателям — дорабатываем систему бесплатно.</p>
+          </div>
+          <div class="card feature">
+            <div class="feature__icon">🚚</div>
+            <h3>Склад и логистика</h3>
+            <p>Более 2 000 позиций в наличии. Доставка по всей России транспортными компаниями.</p>
+          </div>
+          <div class="card feature">
+            <div class="feature__icon">👷</div>
+            <h3>Штатные инженеры</h3>
+            <p>Монтаж выполняют наши сертифицированные специалисты, а не подрядчики-новички.</p>
+          </div>
+          <div class="card feature">
+            <div class="feature__icon">📄</div>
+            <h3>Работаем с юрлицами</h3>
+            <p>Договор, закрывающие документы, тендеры и госзакупки (44-ФЗ, 223-ФЗ).</p>
+          </div>
+          <div class="card feature">
+            <div class="feature__icon">💰</div>
+            <h3>Честные цены</h3>
+            <p>Прямые поставки от заводов-производителей без посредников и наценок.</p>
+          </div>
+          <div class="card feature">
+            <div class="feature__icon">🕑</div>
+            <h3>Быстрые сроки</h3>
+            <p>Монтаж типовой системы для дома — за 1 день, промышленной — от 5 дней.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Lead form ===== -->
+    <section class="section section--dark" id="lead">
+      <div class="container lead">
+        <div class="lead__text">
+          <h2 class="section__title section__title--light">Получите бесплатный расчёт стоимости</h2>
+          <p>Оставьте заявку — инженер свяжется с вами в течение 15 минут, поможет подобрать оборудование и рассчитает стоимость под ваш объект.</p>
+          <ul class="lead__list">
+            <li>Подбор без навязывания лишнего</li>
+            <li>Смета в день обращения</li>
+            <li>Выезд на объект — бесплатно</li>
+          </ul>
+        </div>
+        <form class="lead__form card" id="leadForm" novalidate>
+          <label class="field">
+            <span class="field__label">Ваше имя</span>
+            <input type="text" name="name" class="field__input" placeholder="Иван" required>
+          </label>
+          <label class="field">
+            <span class="field__label">Телефон</span>
+            <input type="tel" name="phone" class="field__input" placeholder="+7 (___) ___-__-__" required>
+          </label>
+          <label class="field">
+            <span class="field__label">Что нужно сделать?</span>
+            <select name="task" class="field__input">
+              <option>Подобрать фильтр для дома</option>
+              <option>Водоподготовка для предприятия</option>
+              <option>Анализ воды</option>
+              <option>Сервис существующей системы</option>
+            </select>
+          </label>
+          <button type="submit" class="btn btn--primary btn--lg btn--block">Отправить заявку</button>
+          <p class="form__note">Нажимая кнопку, вы соглашаетесь с <a href="#">политикой обработки персональных данных</a>.</p>
+          <p class="form__success" id="formSuccess" hidden>Спасибо! Заявка отправлена — мы скоро свяжемся с вами.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <h2 class="section__title">Частые вопросы</h2>
+
+        <div class="accordion">
+          <details class="accordion__item card" open>
+            <summary>Сколько стоит система водоподготовки для частного дома?</summary>
+            <p>Типовой комплект «умягчение + обезжелезивание» для дома со скважиной — от 60 000 до 150 000 ₽ с монтажом. Точная стоимость зависит от анализа воды, производительности и компоновки.</p>
+          </details>
+          <details class="accordion__item card">
+            <summary>Как быстро вы монтируете оборудование?</summary>
+            <p>Квартирные и домашние системы устанавливаем за 1 день. Промышленные объекты — от 5 до 30 дней в зависимости от проекта.</p>
+          </details>
+          <details class="accordion__item card">
+            <summary>Даёте ли вы гарантию на воду «на выходе»?</summary>
+            <p>Да. После пусконаладки мы делаем контрольный анализ воды. Если показатели не соответствуют проекту — дорабатываем систему за свой счёт.</p>
+          </details>
+          <details class="accordion__item card">
+            <summary>Работаете ли вы в регионах?</summary>
+            <p>Монтаж выполняем в Москве и области, оборудование доставляем по всей России. Для региональных объектов шеф-монтаж и онлайн-поддержка.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer" id="contacts">
+    <div class="container footer__grid">
+      <div class="footer__col">
+        <a href="#top" class="logo logo--footer">
+          <svg class="logo__icon" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true">
+            <path d="M16 2C16 2 6 13.5 6 20a10 10 0 0 0 20 0C26 13.5 16 2 16 2z" fill="currentColor"/>
+          </svg>
+          <span class="logo__text">Filtreco<span class="logo__zone">.RU</span></span>
+        </a>
+        <p class="footer__about">Проектирование, продажа и монтаж систем водоподготовки с 2012 года.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Навигация</h4>
+        <a href="#services">Услуги</a>
+        <a href="#catalog">Каталог</a>
+        <a href="#steps">Как мы работаем</a>
+        <a href="#faq">Вопросы</a>
+      </div>
+      <div class="footer__col">
+        <h4>Контакты</h4>
+        <a href="tel:+78001234567">8 800 123-45-67</a>
+        <a href="mailto:info@filtreco.ru">info@filtreco.ru</a>
+        <span>г. Москва, ул. Промышленная, 12, офис 305</span>
+        <span>Пн–Пт: 9:00–19:00</span>
+      </div>
+      <div class="footer__col">
+        <h4>Мы в соцсетях</h4>
+        <div class="socials">
+          <a href="#" aria-label="Telegram">TG</a>
+          <a href="#" aria-label="WhatsApp">WA</a>
+          <a href="#" aria-label="VK">VK</a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© 2012–2026 Filtreco.RU. Все права защищены.</span>
+      <a href="#">Политика конфиденциальности</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
